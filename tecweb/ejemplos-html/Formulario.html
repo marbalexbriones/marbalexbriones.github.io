@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Login</h1>
+
+    <form method="POST" action="https://tecweb-eloyhz.c9users.io/envio.php">
+        <div>
+            <label for = "nom">Nombre:</label>
+            <input id = "nom" placeholder="Nombre" required name = "nombre" type = "text">
+            <label for = "pass">Contraseña:</label>
+            <input id = "pass" placeholder="Contraseña" required name = "contraseña" type = "password">
+        </div>
+        <label for = "check">Desea recibir correos:</label>
+        <input required id = "check" type="checkbox">
+        <label for = "send"></label>
+        <div>
+        <label>Género</label>
+        <label for = "gm">Masculino</label><input required value = "masculino" type = "radio" name = "genero" id = "gm">
+        <label for = "gf">Femenino</label><input required value = "femenino" type = "radio" name = "genero" id = "gf">
+        </div>
+
+        <label for "carrera">Carrera</label>
+        <select required id = "carrera">
+            <option value = "1">Ingeniería en Computación</option>
+            <option value = "2">Ingeniería en Informática</option>
+            <option value = "3">Ingeniería en Sistemas Inteligentes</option>
+        </select>
+        <div>
+        <input if = "send" type = "submit">
+        </div>
+    </form>
+    
+</body>
+</html>
