@@ -19,3 +19,29 @@ p{
 #especial{
     text-transform: capitalize;
 }
+a:visited{
+    color : yellow
+}
+
+#ejemplo li:nth-of-type(even){
+    background-color: tan;
+}
+
+p::first-line{
+    color: blue;
+}
+p::first-letter{
+    font-size: 50px;
+}
+li{
+    background-color: skyblue;
+}
+li{
+    background-color: red;
+}
+.primero{
+    background-color: salmon;
+}
+#first{
+    background-color: purple;
+}
